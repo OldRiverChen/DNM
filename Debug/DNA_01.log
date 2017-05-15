@@ -1,0 +1,95 @@
+﻿生成启动时间为 2017/5/13 11:30:24。
+     1>项目“D:\vsWorkSpace\DNA_01\DNA_01\DNA_01.vcxproj”在节点 2 上(Build 个目标)。
+     1>ClCompile:
+         D:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Debug\\" /Fd"Debug\vc140.pdb" /Gd /TP /analyze- /errorReport:prompt metrics\streaM_k\grouping\Grouping.cpp
+         Grouping.cpp
+     1>d:\vsworkspace\dna_01\dna_01\util\biginteger.h(37): warning C4290: 忽略 C++ 异常规范，但指示函数不是 __declspec(nothrow)
+     1>d:\vsworkspace\dna_01\dna_01\util\biginteger.h(38): warning C4290: 忽略 C++ 异常规范，但指示函数不是 __declspec(nothrow)
+     1>d:\vsworkspace\dna_01\dna_01\util\biginteger.h(43): warning C4290: 忽略 C++ 异常规范，但指示函数不是 __declspec(nothrow)
+     1>d:\vsworkspace\dna_01\dna_01\util\biginteger.h(44): warning C4290: 忽略 C++ 异常规范，但指示函数不是 __declspec(nothrow)
+     1>d:\vsworkspace\dna_01\dna_01\util\mathhelper.h(18): warning C4018: “<”: 有符号/无符号不匹配
+     1>d:\vsworkspace\dna_01\dna_01\util\util.h(31): warning C4244: “=”: 从“time_t”转换到“long”，可能丢失数据
+     1>d:\vsworkspace\dna_01\dna_01\metrics\stream_k\grouping\grouping.cpp(17): warning C4018: “<”: 有符号/无符号不匹配
+       Link:
+         D:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"D:\vsWorkSpace\DNA_01\Debug\DNA_01.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /Debug /PDB:"D:\vsWorkSpace\DNA_01\Debug\DNA_01.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:\vsWorkSpace\DNA_01\Debug\DNA_01.lib" /MACHINE:X86 Debug\RandomGraph.obj
+         Debug\Batch.obj
+         Debug\BatchSanitization.obj
+         Debug\BatchSanitizationStats.obj
+         Debug\RandomBatch.obj
+         Debug\RandomEdgeAdditions.obj
+         Debug\RandomEdgeRemovals.obj
+         Debug\RandomNodeAdditions.obj
+         Debug\RandomNodeRemovals.obj
+         Debug\EdgeAddition.obj
+         Debug\EdgeRemoval.obj
+         Debug\EdgeUpdate.obj
+         Debug\NodeAddition.obj
+         Debug\NodeRemoval.obj
+         Debug\NodeUpdate.obj
+         Debug\Update.obj
+         Debug\DArray.obj
+         Debug\DArrayList.obj
+         Debug\DHashArrayList.obj
+         Debug\GDS.obj
+         Debug\GraphDataStructure.obj
+         Debug\DummyUndirectedEdge.obj
+         Debug\Edge.obj
+         Debug\UndirectedEdge.obj
+         Debug\Graph.obj
+         Debug\Node.obj
+         Debug\UndirectedNode.obj
+         Debug\Dir.obj
+         Debug\Files.obj
+         Debug\Writer.obj
+         Debug\Label.obj
+         Debug\LabelList.obj
+         Debug\main.obj
+         Debug\Algorithms.obj
+         Debug\UndirectedClusteringCoefficient.obj
+         Debug\UndirectedClusteringCoefficientU.obj
+         Debug\DegreeDistribution.obj
+         Debug\Grouping.obj
+         Debug\AggregatedBatch.obj
+         Debug\AggregatedData.obj
+         Debug\AggregatedDistribution.obj
+         Debug\AggregatedDistributionList.obj
+         Debug\AggregatedMetric.obj
+         Debug\AggregatedMetricList.obj
+         Debug\AggregatedNodeValueList.obj
+         Debug\AggregatedNodeValueListList.obj
+         Debug\AggregatedRunTimeList.obj
+         Debug\AggregatedSeries.obj
+         Debug\AggregatedValue.obj
+         Debug\AggregatedValueList.obj
+         Debug\BatchData.obj
+         Debug\Data.obj
+         Debug\BinnedIntDistr.obj
+         Debug\BatchDataList.obj
+         Debug\LongList.obj
+         Debug\MetricDataList.obj
+         Debug\NodeNodeValueListList.obj
+         Debug\NodeValueListList.obj
+         Debug\RunTimeList.obj
+         Debug\ValueList.obj
+         Debug\MetricData.obj
+         Debug\NodeNodeValueList.obj
+         Debug\NodeValueList.obj
+         Debug\RunData.obj
+         Debug\RunTime.obj
+         Debug\SeriesData.obj
+         Debug\Value.obj
+         Debug\Series.obj
+         Debug\SeriesGeneration.obj
+         Debug\SeriesStats.obj
+         Debug\testJieKou.obj
+         Debug\ArrayUtils.obj
+         Debug\BigInteger.obj
+         Debug\Log.obj
+         Debug\ParameterList.obj
+         Debug\Rand.obj
+         DNA_01.vcxproj -> D:\vsWorkSpace\DNA_01\Debug\DNA_01.exe
+     1>已完成生成项目“D:\vsWorkSpace\DNA_01\DNA_01\DNA_01.vcxproj”(Build 个目标)的操作。
+
+已成功生成。
+
+已用时间 00:00:01.36

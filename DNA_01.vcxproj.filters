@@ -1,0 +1,612 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="源文件">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="头文件">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="资源文件">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="util\ParameterList.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="testJieKou.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="graph\nodes\UndirectedNode.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="graph\datastructures\GDS.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="generators\model\RandomGraph.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="graph\edges\Edge.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="graph\nodes\Node.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="graph\edges\UndirectedEdge.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="graph\datastructures\GraphDataStructure.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="generators\updates\random\RandomBatch.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="generators\updates\random\rand\RandomNodeAdditions.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="generators\updates\random\rand\RandomNodeRemovals.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="generators\updates\random\rand\RandomEdgeAdditions.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="generators\updates\random\rand\RandomEdgeRemovals.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="metrics\degree\DegreeDistribution.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="metrics\clustering\UndirectedClusteringCoefficient.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="series\Series.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="series\data\SeriesData.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="series\SeriesGeneration.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="util\Log.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="util\Rand.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="series\data\RunData.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="series\data\BatchData.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="series\data\lists\BatchDataList.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="metrics\algorithms\Algorithms.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="graph\Graph.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="graph\datastructures\DArray.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="graph\datastructures\DHashArrayList.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="graph\datastructures\DArrayList.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="series\data\Data.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="series\data\Value.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="series\data\lists\ValueList.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="series\data\RunTime.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="series\data\lists\RunTimeList.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="labels\Label.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="labels\LabelList.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="series\data\MetricData.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="series\data\nodevaluelists\NodeValueList.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="series\data\lists\NodeValueListList.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="series\data\nodevaluelists\NodeNodeValueList.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="series\data\lists\NodeNodeValueListList.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="series\data\lists\MetricDataList.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="series\data\distr\BinnedIntDistr.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="generators\updates\update\Update.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="generators\updates\update\EdgeUpdate.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="generators\updates\update\EdgeAddition.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="generators\updates\update\EdgeRemoval.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="generators\updates\update\NodeUpdate.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="generators\updates\update\NodeAddition.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="generators\updates\update\NodeRemoval.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="metrics\clustering\UndirectedClusteringCoefficientU.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="series\data\lists\LongList.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="graph\edges\DummyUndirectedEdge.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="util\ArrayUtils.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="series\SeriesStats.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="io\filesystem\Dir.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="io\filesystem\Files.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="io\Writer.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="util\BigInteger.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="generators\updates\batch\Batch.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="generators\updates\batch\BatchSanitizationStats.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="generators\updates\batch\BatchSanitization.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="series\aggdata\AggregatedSeries.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="series\aggdata\AggregatedBatch.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="series\aggdata\AggregatedData.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="series\aggdata\AggregatedValue.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="series\aggdata\AggregatedValueList.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="series\aggdata\AggregatedRunTimeList.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="series\aggdata\AggregatedMetric.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="series\aggdata\AggregatedDistribution.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="series\aggdata\AggregatedDistributionList.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="series\aggdata\AggregatedNodeValueList.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="series\aggdata\AggregatedNodeValueListList.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="series\aggdata\AggregatedMetricList.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="metrics\streaM_k\grouping\Grouping.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="metrics\streaM_k\grouping\GroupingV1.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="metrics\streaM_k\StreaM_k.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="metrics\streaM_k\rules\motifs\UndirectedMotifsMapping.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="graph\Graph.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="util\Comparator.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="graph\IElement.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="util\Parameter.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="util\Util.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="util\ParameterList.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="util\parameters\DoubleParameter.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="util\parameters\IntParameter.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="util\parameters\LongParameter.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="util\parameters\StringParameter.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="graph\Element.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="graph\datastructures\GraphDataStructure.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="graph\edges\Edge.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="graph\nodes\Node.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="util\MathHelper.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="graph\nodes\UndirectedNode.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="graph\datastructures\IDataStructure.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="graph\datastructures\GDS.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="graph\edges\IEdgeListDatastructure.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="generators\GraphGenerator.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="generators\model\RandomGraph.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="graph\edges\UndirectedEdge.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="generators\updates\BatchGenerator.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="generators\updates\random\RandomBatch.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="generators\updates\random\rand\RandomNodeAdditions.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="generators\updates\random\rand\RandomNodeRemovals.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="generators\updates\random\rand\RandomEdgeAdditions.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="generators\updates\random\rand\RandomEdgeRemovals.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="metrics\Metric.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="metrics\degree\DegreeDistribution.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="metrics\degree\DegreeDistributionR.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="metrics\clustering\UndirectedClusteringCoefficient.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="metrics\clustering\UndirectedClusteringCoefficientU.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="metrics\clustering\ClusteringCoefficient.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="series\Series.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="series\data\SeriesData.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="series\SeriesGeneration.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="util\Log.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="util\Rand.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="series\data\RunData.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="series\data\BatchData.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="series\data\lists\BatchDataList.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="series\data\lists\SortedList.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="metrics\algorithms\Algorithms.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="graph\nodes\INodeListDatastructure.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="graph\datastructures\DArray.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="graph\datastructures\DHashArrayList.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="DataStructure.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="graph\datastructures\DArrayList.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="series\data\lists\ListItem.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="series\data\Data.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="series\data\Value.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="series\data\lists\List.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="series\data\lists\ValueList.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="series\data\RunTime.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="series\data\lists\RunTimeList.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="labels\Label.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="labels\LabelList.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="series\data\MetricData.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="series\data\distr\Distr.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="series\data\lists\DistributionList.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="series\data\nodevaluelists\NodeValueList.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="series\data\lists\NodeValueListList.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="series\data\nodevaluelists\NodeNodeValueList.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="series\data\lists\NodeNodeValueListList.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="series\data\lists\MetricDataList.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="metrics\IMetric.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="metrics\algorithms\IDynamicAlgorithm.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="metrics\algorithms\IRecomputation.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="series\data\distr\BinnedDistr.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="series\data\distr\BinnedIntDistr.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="metrics\algorithms\IAfterER.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="metrics\algorithms\IBeforeEA.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="metrics\algorithms\IBeforeNA.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="metrics\algorithms\IBeforeNR.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="generators\updates\update\Update.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="generators\updates\update\EdgeUpdate.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="generators\updates\update\EdgeAddition.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="generators\updates\update\EdgeRemoval.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="generators\updates\update\NodeUpdate.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="generators\updates\update\NodeAddition.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="generators\updates\update\NodeRemoval.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="series\data\lists\LongList.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="graph\edges\IEdgeDummy.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="graph\edges\DummyUndirectedEdge.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="util\ArrayUtils.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="series\SeriesStats.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="util\MemoryUtil.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="io\filesystem\Dir.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="io\filesystem\Files.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="io\Writer.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="util\BigInteger.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="generators\updates\batch\Batch.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="generators\updates\batch\BatchSanitizationStats.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="generators\updates\batch\BatchSanitization.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="metrics\algorithms\IBeforeBatch.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="metrics\algorithms\IBeforeER.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="metrics\algorithms\IAfterEA.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="metrics\algorithms\IAfterNA.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="metrics\algorithms\IAfterNR.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="metrics\algorithms\IAfterBatch.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="series\aggdata\AggregatedSeries.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="series\data\IBatch.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="series\aggdata\AggregatedBatch.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="series\aggdata\AggregatedData.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="series\aggdata\AggregatedValue.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="series\aggdata\AggregatedValueList.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="series\aggdata\AggregatedRunTimeList.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="series\aggdata\AggregatedMetric.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="series\aggdata\AggregatedDistribution.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="series\aggdata\AggregatedDistributionList.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="series\aggdata\AggregatedNodeValueList.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="series\aggdata\AggregatedNodeValueListList.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="series\aggdata\AggregatedMetricList.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="metrics\streaM_k\grouping\Grouping.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="metrics\streaM_k\grouping\GroupingV1.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="metrics\streaM_k\StreaM_k.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="metrics\streaM_k\rules\motifs\UndirectedMotifsMapping.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

@@ -1,0 +1,352 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{53433B0D-4D1C-422E-AA4D-1EA4F32D48B1}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <RootNamespace>DNA_01</RootNamespace>
+    <WindowsTargetPlatformVersion>8.1</WindowsTargetPlatformVersion>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v140</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v140</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v140</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v140</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="Shared">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <LinkIncremental>true</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <LinkIncremental>true</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <LinkIncremental>false</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <LinkIncremental>false</LinkIncremental>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <SDLCheck>true</SDLCheck>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <SDLCheck>true</SDLCheck>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <SDLCheck>true</SDLCheck>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <PreprocessorDefinitions>NDEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <SDLCheck>true</SDLCheck>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="generators\model\RandomGraph.cpp" />
+    <ClCompile Include="generators\updates\batch\Batch.cpp" />
+    <ClCompile Include="generators\updates\batch\BatchSanitization.cpp" />
+    <ClCompile Include="generators\updates\batch\BatchSanitizationStats.cpp" />
+    <ClCompile Include="generators\updates\random\RandomBatch.cpp" />
+    <ClCompile Include="generators\updates\random\rand\RandomEdgeAdditions.cpp" />
+    <ClCompile Include="generators\updates\random\rand\RandomEdgeRemovals.cpp" />
+    <ClCompile Include="generators\updates\random\rand\RandomNodeAdditions.cpp" />
+    <ClCompile Include="generators\updates\random\rand\RandomNodeRemovals.cpp" />
+    <ClCompile Include="generators\updates\update\EdgeAddition.cpp" />
+    <ClCompile Include="generators\updates\update\EdgeRemoval.cpp" />
+    <ClCompile Include="generators\updates\update\EdgeUpdate.cpp" />
+    <ClCompile Include="generators\updates\update\NodeAddition.cpp" />
+    <ClCompile Include="generators\updates\update\NodeRemoval.cpp" />
+    <ClCompile Include="generators\updates\update\NodeUpdate.cpp" />
+    <ClCompile Include="generators\updates\update\Update.cpp" />
+    <ClCompile Include="graph\datastructures\DArray.cpp" />
+    <ClCompile Include="graph\datastructures\DArrayList.cpp" />
+    <ClCompile Include="graph\datastructures\DHashArrayList.cpp" />
+    <ClCompile Include="graph\datastructures\GDS.cpp" />
+    <ClCompile Include="graph\datastructures\GraphDataStructure.cpp" />
+    <ClCompile Include="graph\edges\DummyUndirectedEdge.cpp" />
+    <ClCompile Include="graph\edges\Edge.cpp" />
+    <ClCompile Include="graph\edges\UndirectedEdge.cpp" />
+    <ClCompile Include="graph\Graph.cpp" />
+    <ClCompile Include="graph\nodes\Node.cpp" />
+    <ClCompile Include="graph\nodes\UndirectedNode.cpp" />
+    <ClCompile Include="io\filesystem\Dir.cpp" />
+    <ClCompile Include="io\filesystem\Files.cpp" />
+    <ClCompile Include="io\Writer.cpp" />
+    <ClCompile Include="labels\Label.cpp" />
+    <ClCompile Include="labels\LabelList.cpp" />
+    <ClCompile Include="main.cpp" />
+    <ClCompile Include="metrics\algorithms\Algorithms.cpp" />
+    <ClCompile Include="metrics\clustering\UndirectedClusteringCoefficient.cpp" />
+    <ClCompile Include="metrics\clustering\UndirectedClusteringCoefficientU.cpp" />
+    <ClCompile Include="metrics\degree\DegreeDistribution.cpp" />
+    <ClCompile Include="metrics\streaM_k\grouping\Grouping.cpp" />
+    <ClCompile Include="metrics\streaM_k\grouping\GroupingV1.cpp" />
+    <ClCompile Include="metrics\streaM_k\rules\motifs\UndirectedMotifsMapping.cpp" />
+    <ClCompile Include="metrics\streaM_k\StreaM_k.cpp" />
+    <ClCompile Include="series\aggdata\AggregatedBatch.cpp" />
+    <ClCompile Include="series\aggdata\AggregatedData.cpp" />
+    <ClCompile Include="series\aggdata\AggregatedDistribution.cpp" />
+    <ClCompile Include="series\aggdata\AggregatedDistributionList.cpp" />
+    <ClCompile Include="series\aggdata\AggregatedMetric.cpp" />
+    <ClCompile Include="series\aggdata\AggregatedMetricList.cpp" />
+    <ClCompile Include="series\aggdata\AggregatedNodeValueList.cpp" />
+    <ClCompile Include="series\aggdata\AggregatedNodeValueListList.cpp" />
+    <ClCompile Include="series\aggdata\AggregatedRunTimeList.cpp" />
+    <ClCompile Include="series\aggdata\AggregatedSeries.cpp" />
+    <ClCompile Include="series\aggdata\AggregatedValue.cpp" />
+    <ClCompile Include="series\aggdata\AggregatedValueList.cpp" />
+    <ClCompile Include="series\data\BatchData.cpp" />
+    <ClCompile Include="series\data\Data.cpp" />
+    <ClCompile Include="series\data\distr\BinnedIntDistr.cpp" />
+    <ClCompile Include="series\data\lists\BatchDataList.cpp" />
+    <ClCompile Include="series\data\lists\LongList.cpp" />
+    <ClCompile Include="series\data\lists\MetricDataList.cpp" />
+    <ClCompile Include="series\data\lists\NodeNodeValueListList.cpp" />
+    <ClCompile Include="series\data\lists\NodeValueListList.cpp" />
+    <ClCompile Include="series\data\lists\RunTimeList.cpp" />
+    <ClCompile Include="series\data\lists\ValueList.cpp" />
+    <ClCompile Include="series\data\MetricData.cpp" />
+    <ClCompile Include="series\data\nodevaluelists\NodeNodeValueList.cpp" />
+    <ClCompile Include="series\data\nodevaluelists\NodeValueList.cpp" />
+    <ClCompile Include="series\data\RunData.cpp" />
+    <ClCompile Include="series\data\RunTime.cpp" />
+    <ClCompile Include="series\data\SeriesData.cpp" />
+    <ClCompile Include="series\data\Value.cpp" />
+    <ClCompile Include="series\Series.cpp" />
+    <ClCompile Include="series\SeriesGeneration.cpp" />
+    <ClCompile Include="series\SeriesStats.cpp" />
+    <ClCompile Include="testJieKou.cpp" />
+    <ClCompile Include="util\ArrayUtils.cpp" />
+    <ClCompile Include="util\BigInteger.cpp" />
+    <ClCompile Include="util\Log.cpp" />
+    <ClCompile Include="util\ParameterList.cpp" />
+    <ClCompile Include="util\Rand.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="DataStructure.h" />
+    <ClInclude Include="generators\GraphGenerator.h" />
+    <ClInclude Include="generators\model\RandomGraph.h" />
+    <ClInclude Include="generators\updates\BatchGenerator.h" />
+    <ClInclude Include="generators\updates\batch\Batch.h" />
+    <ClInclude Include="generators\updates\batch\BatchSanitization.h" />
+    <ClInclude Include="generators\updates\batch\BatchSanitizationStats.h" />
+    <ClInclude Include="generators\updates\random\RandomBatch.h" />
+    <ClInclude Include="generators\updates\random\rand\RandomEdgeAdditions.h" />
+    <ClInclude Include="generators\updates\random\rand\RandomEdgeRemovals.h" />
+    <ClInclude Include="generators\updates\random\rand\RandomNodeAdditions.h" />
+    <ClInclude Include="generators\updates\random\rand\RandomNodeRemovals.h" />
+    <ClInclude Include="generators\updates\update\EdgeAddition.h" />
+    <ClInclude Include="generators\updates\update\EdgeRemoval.h" />
+    <ClInclude Include="generators\updates\update\EdgeUpdate.h" />
+    <ClInclude Include="generators\updates\update\NodeAddition.h" />
+    <ClInclude Include="generators\updates\update\NodeRemoval.h" />
+    <ClInclude Include="generators\updates\update\NodeUpdate.h" />
+    <ClInclude Include="generators\updates\update\Update.h" />
+    <ClInclude Include="graph\datastructures\DArray.h" />
+    <ClInclude Include="graph\datastructures\DArrayList.h" />
+    <ClInclude Include="graph\datastructures\DHashArrayList.h" />
+    <ClInclude Include="graph\datastructures\GDS.h" />
+    <ClInclude Include="graph\datastructures\GraphDataStructure.h" />
+    <ClInclude Include="graph\datastructures\IDataStructure.h" />
+    <ClInclude Include="graph\edges\DummyUndirectedEdge.h" />
+    <ClInclude Include="graph\edges\Edge.h" />
+    <ClInclude Include="graph\edges\IEdgeDummy.h" />
+    <ClInclude Include="graph\edges\IEdgeListDatastructure.h" />
+    <ClInclude Include="graph\edges\UndirectedEdge.h" />
+    <ClInclude Include="graph\Element.h" />
+    <ClInclude Include="graph\Graph.h" />
+    <ClInclude Include="graph\IElement.h" />
+    <ClInclude Include="graph\nodes\INodeListDatastructure.h" />
+    <ClInclude Include="graph\nodes\Node.h" />
+    <ClInclude Include="graph\nodes\UndirectedNode.h" />
+    <ClInclude Include="io\filesystem\Dir.h" />
+    <ClInclude Include="io\filesystem\Files.h" />
+    <ClInclude Include="io\Writer.h" />
+    <ClInclude Include="labels\Label.h" />
+    <ClInclude Include="labels\LabelList.h" />
+    <ClInclude Include="metrics\algorithms\Algorithms.h" />
+    <ClInclude Include="metrics\algorithms\IAfterBatch.h" />
+    <ClInclude Include="metrics\algorithms\IAfterEA.h" />
+    <ClInclude Include="metrics\algorithms\IAfterER.h" />
+    <ClInclude Include="metrics\algorithms\IAfterNA.h" />
+    <ClInclude Include="metrics\algorithms\IAfterNR.h" />
+    <ClInclude Include="metrics\algorithms\IBeforeBatch.h" />
+    <ClInclude Include="metrics\algorithms\IBeforeEA.h" />
+    <ClInclude Include="metrics\algorithms\IBeforeER.h" />
+    <ClInclude Include="metrics\algorithms\IBeforeNA.h" />
+    <ClInclude Include="metrics\algorithms\IBeforeNR.h" />
+    <ClInclude Include="metrics\algorithms\IDynamicAlgorithm.h" />
+    <ClInclude Include="metrics\algorithms\IRecomputation.h" />
+    <ClInclude Include="metrics\clustering\ClusteringCoefficient.h" />
+    <ClInclude Include="metrics\clustering\UndirectedClusteringCoefficient.h" />
+    <ClInclude Include="metrics\clustering\UndirectedClusteringCoefficientU.h" />
+    <ClInclude Include="metrics\degree\DegreeDistribution.h" />
+    <ClInclude Include="metrics\degree\DegreeDistributionR.h" />
+    <ClInclude Include="metrics\IMetric.h" />
+    <ClInclude Include="metrics\Metric.h" />
+    <ClInclude Include="metrics\streaM_k\grouping\Grouping.h" />
+    <ClInclude Include="metrics\streaM_k\grouping\GroupingV1.h" />
+    <ClInclude Include="metrics\streaM_k\rules\motifs\UndirectedMotifsMapping.h" />
+    <ClInclude Include="metrics\streaM_k\StreaM_k.h" />
+    <ClInclude Include="series\aggdata\AggregatedBatch.h" />
+    <ClInclude Include="series\aggdata\AggregatedData.h" />
+    <ClInclude Include="series\aggdata\AggregatedDistribution.h" />
+    <ClInclude Include="series\aggdata\AggregatedDistributionList.h" />
+    <ClInclude Include="series\aggdata\AggregatedMetric.h" />
+    <ClInclude Include="series\aggdata\AggregatedMetricList.h" />
+    <ClInclude Include="series\aggdata\AggregatedNodeValueList.h" />
+    <ClInclude Include="series\aggdata\AggregatedNodeValueListList.h" />
+    <ClInclude Include="series\aggdata\AggregatedRunTimeList.h" />
+    <ClInclude Include="series\aggdata\AggregatedSeries.h" />
+    <ClInclude Include="series\aggdata\AggregatedValue.h" />
+    <ClInclude Include="series\aggdata\AggregatedValueList.h" />
+    <ClInclude Include="series\data\BatchData.h" />
+    <ClInclude Include="series\data\Data.h" />
+    <ClInclude Include="series\data\distr\BinnedDistr.h" />
+    <ClInclude Include="series\data\distr\BinnedIntDistr.h" />
+    <ClInclude Include="series\data\distr\Distr.h" />
+    <ClInclude Include="series\data\IBatch.h" />
+    <ClInclude Include="series\data\lists\BatchDataList.h" />
+    <ClInclude Include="series\data\lists\DistributionList.h" />
+    <ClInclude Include="series\data\lists\List.h" />
+    <ClInclude Include="series\data\lists\ListItem.h" />
+    <ClInclude Include="series\data\lists\LongList.h" />
+    <ClInclude Include="series\data\lists\MetricDataList.h" />
+    <ClInclude Include="series\data\lists\NodeNodeValueListList.h" />
+    <ClInclude Include="series\data\lists\NodeValueListList.h" />
+    <ClInclude Include="series\data\lists\RunTimeList.h" />
+    <ClInclude Include="series\data\lists\SortedList.h" />
+    <ClInclude Include="series\data\lists\ValueList.h" />
+    <ClInclude Include="series\data\MetricData.h" />
+    <ClInclude Include="series\data\nodevaluelists\NodeNodeValueList.h" />
+    <ClInclude Include="series\data\nodevaluelists\NodeValueList.h" />
+    <ClInclude Include="series\data\RunData.h" />
+    <ClInclude Include="series\data\RunTime.h" />
+    <ClInclude Include="series\data\SeriesData.h" />
+    <ClInclude Include="series\data\Value.h" />
+    <ClInclude Include="series\Series.h" />
+    <ClInclude Include="series\SeriesGeneration.h" />
+    <ClInclude Include="series\SeriesStats.h" />
+    <ClInclude Include="util\ArrayUtils.h" />
+    <ClInclude Include="util\BigInteger.h" />
+    <ClInclude Include="util\Comparator.h" />
+    <ClInclude Include="util\Log.h" />
+    <ClInclude Include="util\MathHelper.h" />
+    <ClInclude Include="util\MemoryUtil.h" />
+    <ClInclude Include="util\Parameter.h" />
+    <ClInclude Include="util\ParameterList.h" />
+    <ClInclude Include="util\parameters\DoubleParameter.h" />
+    <ClInclude Include="util\parameters\IntParameter.h" />
+    <ClInclude Include="util\parameters\LongParameter.h" />
+    <ClInclude Include="util\parameters\StringParameter.h" />
+    <ClInclude Include="util\Rand.h" />
+    <ClInclude Include="util\Util.h" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>
